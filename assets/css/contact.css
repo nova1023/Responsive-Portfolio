@@ -1,0 +1,172 @@
+
+html, body {
+	position: relative;
+	background-image: url('../images/backgroundpattern.png');
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	height: 100%;
+}
+
+h2, a {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+a{
+	text-decoration: none;
+	color: #777777;
+}
+
+a:hover {
+	color: #4aaaa5;
+} 
+
+header {
+	background-color: #ffffff;
+	position: relative;
+	height: 80px;
+	border-bottom: 2px #cccccc solid;
+}
+
+#name {
+	position: absolute;
+	left: 10%;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 250px;
+	height: 100%;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	list-style-type: none;
+	position: absolute;
+	right: 12%;
+	top: 40%;
+}
+
+.headerlinks {
+	display: inline;
+}
+
+#portfoliolink {
+	border-left: 2px #cccccc solid;
+	border-right: 2px #cccccc solid;
+	padding-left: 10px;
+	padding-right: 8px;
+}
+
+#about {
+	padding-right: 9px;
+}
+
+#contact {
+	padding-left: 10px;
+}
+
+/*Start of Contact box*/
+
+.mainContent {
+	width: 650px;
+	background-color: #ffffff;
+	border: 2px #dddddd solid;
+	position: absolute;
+	left: 10%;
+	top: 120px;
+}
+
+#contactmebox {
+	margin: 0px 27px 0px 27px;
+	padding: 30px 20px 20px 0px;
+	border-bottom: 2px #dddddd solid;
+	color: #4aaaa5;
+	font-size: 25px;
+}
+
+form, button {
+	position: relative;
+	left: 4%;
+}
+
+input, textarea {
+	margin-top: 10px;
+}
+
+#nameBox, #emailBox, #messageBox {
+	width: 593px;
+}
+
+#messageBox {
+	height: 225px;
+}
+
+button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 130px;
+	height: 50px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+button:hover {
+	box-shadow: 5px 5px 5px grey;
+}
+
+
+
+
+
+.connectionsimages {
+	width: 70px;
+	height: 70px;
+	margin: 10px 0px 10px 13px;
+}
+
+.connectionsimages:hover {
+	box-shadow: 6px 6px 5px grey;
+}
+
+#connections {
+	position: absolute;
+	background-color: #ffffff;
+	width: 270px;
+	border: 2px #dddddd solid;
+	top: 120px;
+	right: 10%;
+}
+
+#connectwithme {
+	color: #4aaaa5;
+	border-bottom: 2px #dddddd solid;
+	text-align: center;
+	margin: 15px 15px 20px 15px;
+	padding: 10px 0px 20px 0px;
+	font-size: 25px;
+}
+
+/*End of links to me. Start of footer.*/
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -80px;
+}
+
+.footer, .push {
+	height: 80px;
+}
+
+footer {
+	background-color: #666666;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	border-top: 5px #4aaaa5 solid;
+}
+
+#copyright {
+	font-size: 15px;
+	color: #ffffff;
+}
