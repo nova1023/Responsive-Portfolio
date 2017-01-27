@@ -1,118 +1,74 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Thomas Yu</title>
+  <meta charset="UTF-8">
+  <title>About | Thomas Yu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-	<div class="wrapper">
-		<header>
-			<section id="name">
-				<h2>Thomas Yu</h2>
-				<br>	
-			</section>
-	
-		<ul>
-			<li class="headerlinks" id="about">
-				<a href="index.html">About</a>
-			</li>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Thomas Yu</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-			<li class="headerlinks" id="portfoliolink">
-				<a href="portfolio.html">Portfolio</a>
-			</li>
+<div class="wrapper">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-			<li class="headerlinks" id="contact">
-				<a href="contact.html">Contact</a>
-			</li>
-		</ul>
-	
-		</header>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-		<div class="mainContent">
-			<h2 id="contactmebox">Contact</h2>
-			<br>
+    </section>
 
-			<form>Name
-			<br>
-			<input type="text" id="nameBox">
-			<br>
-			<br>
-			</form>
-			
-			<form>Email
-			<br>
-			<input type="text" id="emailBox">
-			<br>
-			<br>
-			</form>
+    <section class="sidebar">
+        <div id="connect">
+          <h2>Connect with Me</h2>
 
-			<form>Message
-			<br>
-			<textarea type="text" id="messageBox" value="Your Message">
-			</textarea>
-			<br>
-			<br>
-			</form>
+          <a href="https://github.com/nova1023" target="_blank">
+          <img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/thomas-yu-18b93aab?trk=nav_responsive_tab_profile" target="_blank">
+          <img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+          <a href="http://stackoverflow.com/users/7335899/tom-yu" target="_blank"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+        </div>
+      </section>
 
-			<button type="button" name="Submit">Submit</button>
+      <div class="push"></div>
+    </div>
+  </div>
 
-		</div>
 
-		<div id="connections">
-			<h2 id="connectwithme">Connect with me</h2>
-
-			<a href="https://github.com/nova1023" target="_blank">
-				<img src="assets/images/github.png" alt="Github" id="githubimage" class="connectionsimages">
-			</a>
-
-			<a href="https://www.linkedin.com/in/thomas-yu-18b93aab?trk=nav_responsive_tab_profile" target="_blank">
-				<img src="assets/images/linkedin.png" alt="LinkedIn" id="linkedinimage" class="connectionsimages">
-			</a>
-
-			<a href="http://stackoverflow.com/users/7335899/tom-yu" target="_blank">
-				<img src="assets/images/stackoverflow.png" alt="Stack Overflow" id="stackoverflowimage" class="connectionsimages">
-			</a>
-
-		</div>
-		
-		<div class="push"></div>
-		
-	</div>
-
-		<div class="footer">
-			<footer id="indexfooter">
-				<h3 id="copyright">&#169; Copyright 2017 Thomas Yu</h3>
-			</footer>
-		</div>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Thomas Yu
+    </div>
+  </footer>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
